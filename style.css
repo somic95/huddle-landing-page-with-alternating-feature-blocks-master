@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    font-family: "Poppins",sans-serif;
+    font-size: 18px;
+    background-image: url(/images/bg-hero-desktop.svg);
+    background-size: cover;
+    background-color: hsl(193, 100%, 96%);
+    height: auto;
+}
+header .btn-primary {
+    background-color: white ;
+    border: none;
+    color: hsl(192, 100%, 9%);
+    font-size: 12px;
+}
+
+header .btn-secondary {
+    background-color: hsl(322, 100%, 66%);
+    border: none;
+    font-size: 12px;
+}
+
+header h1 {
+    font-weight: 600;
+}
+
+section {
+    font-family: "Poppins",sans-serif;
+}
+
+section .row {
+    border-radius: 15px;
+}
+
+section h3 {
+    color: hsl(192, 100%, 9%);
+}
+
+section p {
+    color: hsl(208, 11%, 55%) ;
+}
+
+section:nth-child(3) {
+    font-family: "Poppins",sans-serif;
+}
+
+section:nth-child(3) .btn-secondary {
+    background-color: hsl(322, 100%, 66%);
+    border: none;
+}
+
+
+footer img {
+    filter: brightness(0) invert(1);
+}
+
+footer ul li {
+    list-style-type: none;
+}
+
+
+
+
